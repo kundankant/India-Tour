@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndiaTour & Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-map-marker-alt"></i> IndiaTour</a>
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="#home">home</a>
+            <a href="#category">experiences</a>
+            <a href="#packages">packages</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+        </div>
+    </header>
+
+    <div class="search-form">
+        <div id="close-search" class="fas fa-times"></div>
+        <form action="">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+
+    <section class="home" id="home">
+        <div class="wrapper">
+            
+            <div class="box" style="background: url('images/india1.jpg') no-repeat;">
+                
+                <div class="content">
+                    <span>Welcome to India</span>
+                    <h3>Discover the magic of India</h3>
+                    <p>IndiaTour.com offers the best deals on India tour packages. Explore the rich culture, history, and natural beauty of India with us.</p>
+                    <a href="#category" class="btn">get started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="category" id="category">
+        <h1 class="heading">Experience India</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="C:\Users\kunda\Desktop\Tour-Project-main\images\img-3.jpg" alt="Taj Mahal">
+                <h3>Visit the Taj Mahal</h3>
+                <p>The Taj Mahal is one of the Seven Wonders of the World and a UNESCO World Heritage Site. It is a white marble mausoleum located in Agra, India.</p>
+                <a href="https://en.wikipedia.org/wiki/Taj_Mahal" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="C:\Users\kunda\Desktop\Tour-Project-main\images\img-5.jpg" alt="Goa">
+                <h3>Explore Goa</h3>
+                <p>Goa is a state in western India with a coastline stretching along the Arabian Sea. It is known for its beautiful beaches, Portuguese architecture, and vibrant nightlife.</p>
+                <a href="https://en.wikipedia.org/wiki/Goa" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="C:\Users\kunda\Desktop\Tour-Project-main\images\img-4.jpg" alt="Rajasthan">
+                <h3>Discover Rajasthan</h3>
+                <p>Rajasthan is a state in northern India known for its historic forts, palaces, and vibrant culture. It is also home to the Thar Desert, which is the largest desert in India.</p>
+                <a href="https://en.wikipedia.org/wiki/Rajasthan" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="packages" id="packages">
+        <h1 class="heading">Our Packages</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://via.placeholder.com/300" alt="Package 1">
+                <h3>Package 1</h3>
+                <p>Description of Package 1</p>
+                <a href="#package1-details" class="btn">View Details</a>
+            </div>
+            <div class="box">
+                <img src="C:\Users\kunda\Desktop\Tour-Project-main\images\img-2.jpg" alt="Package 2">
+                <h3>Package 2</h3>
+                <p>Description of Package 2</p>
+                <a href="#package2-details" class="btn">View Details</a>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/300" alt="Package 3">
+                <h3>Package 3</h3>
+                <p>Description of Package 3</p>
+                <a href="#package3-details" class="btn">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact Us</h1>
+        <div class="contact-form">
+            <form action="" method="post">
+                <div class="inputBox">
+                    <input type="text" name="name" required placeholder="Your Name">
+                    <input type="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="phone" placeholder="Your Phone Number">
+                    <input type="text" name="subject" required placeholder="Subject">
+                </div>
+                <textarea name="message" rows="10" required placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
